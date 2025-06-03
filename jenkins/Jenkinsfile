@@ -26,10 +26,6 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh' 
             }
         }
-        stage('Message'){
-            steps{
-            echo "The Build was Successful"
-            }
-        }
+        
     }
 }
